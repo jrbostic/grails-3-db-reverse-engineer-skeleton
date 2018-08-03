@@ -72,7 +72,13 @@ dependencies {
     testRuntime 'org.seleniumhq.selenium:selenium-htmlunit-driver:2.44.0'
 
     console "org.grails:grails-console"
+
     compile 'org.grails.plugins:db-reverse-engineer:4.0.0'
+
+    ///////////////////////////////////////////////////////
+    // REVENG - ADD & SWAP DB DRIVERS BELOW              //
+    ///////////////////////////////////////////////////////
+
     runtime 'mysql:mysql-connector-java:5.1.38'
 }
 
