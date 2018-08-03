@@ -1,4 +1,4 @@
-#Grails DB Reverse Engineer Skeleton
+# Grails DB Reverse Engineer Skeleton
 
 The purpose of this project is to provide a working application that can be quickly cloned and modified to generate grails domains from existing databases.  
 
@@ -6,22 +6,22 @@ Due to some incompatibilities with the current highest version of the grails rev
 
 Reasons you might use this:
 
-0. You are adding domains to an existing application that is having trouble adding the reverse engineering plugin as a dependency.
-0. You are working with a Grails application >3.0.x which is using the incompatible Hibernate 5
-0. Because it's simpler/easier than trying to hook up the deps and configuration to your actual application
+1. You are adding domains to an existing application that is having trouble adding the reverse engineering plugin as a dependency.
+2. You are working with a Grails application >3.0.x which is using the incompatible Hibernate 5
+3. Because it's simpler/easier than trying to hook up the deps and configuration to your actual application
 
 [Reverse Engineer Plugin Code](https://github.com/grails-plugins/grails-db-reverse-engineer)
 [Reverse Engineer Plugin Docs](https://grails-plugins.github.io/grails-db-reverse-engineer/grails3v4/index.html)
 
-###Connecting to Database:
+### Connecting to Database:
 
-0. Add appropriate driver to match target DB in `build.gradle`
-0. Set up your `application.yml` datasource by updating the connection string, username, password, dialect
+1. Add appropriate driver to match target DB in `build.gradle`
+2. Set up your `application.yml` datasource by updating the connection string, username, password, dialect
 
-###Setting Up Options:
+### Setting Up Options:
 
 Update desired options. Using the [plugin docs](https://grails-plugins.github.io/grails-db-reverse-engineer/grails3v4/index.html#core-properties) for reference would be best here, but I do provide the list of config settings in `application.groovy` (where the configurations will be set).
 
-###Generate Domains: 
+### Generate Domains: 
 
     ./gradlew dbReverseEngineer
