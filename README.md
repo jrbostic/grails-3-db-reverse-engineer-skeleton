@@ -11,6 +11,7 @@ Reasons you might use this:
 3. Because it's simpler/easier than trying to hook up the deps and configuration to your actual application
 
 [Reverse Engineer Plugin Code](https://github.com/grails-plugins/grails-db-reverse-engineer)
+
 [Reverse Engineer Plugin Docs](https://grails-plugins.github.io/grails-db-reverse-engineer/grails3v4/index.html)
 
 ### Connecting to Database:
