@@ -87,9 +87,9 @@ endpoints:
 
 dataSource:
     dbCreate: none
-    dialect: org.hibernate.dialect.MySQL5InnoDBDialect
     driverClassName: com.mysql.jdbc.Driver
-    password: reveng
     url: jdbc:mysql://localhost/reveng
+    dialect: org.hibernate.dialect.MySQL5InnoDBDialect
     username: reveng
+    password: reveng
 

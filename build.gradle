@@ -79,7 +79,7 @@ dependencies {
     // REVENG - ADD & SWAP DB DRIVERS BELOW              //
     ///////////////////////////////////////////////////////
 
-    runtime 'mysql:mysql-connector-java:5.1.38'
+    runtime 'mysql:mysql-connector-java:5.1.38'  // com.mysql.jdbc.Driver
 }
 
 task wrapper(type: Wrapper) {

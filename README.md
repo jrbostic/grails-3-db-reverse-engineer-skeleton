@@ -16,8 +16,13 @@ Reasons you might use this:
 
 ### Connecting to Database:
 
-1. Add appropriate driver to match target DB in `build.gradle`
-2. Set up your `application.yml` datasource by updating the connection string, username, password, dialect
+1. Add appropriate driver dependency to match target DB in `build.gradle`
+2. Set up your `application.yml` datasource by updating:
+    * driver class 
+    * connection string
+    * [dialect](https://docs.jboss.org/hibernate/orm/3.5/api/org/hibernate/dialect/package-summary.html) 
+    * username
+    * password
 
 ### Setting Up Options:
 

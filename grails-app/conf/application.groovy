@@ -11,6 +11,10 @@ grails.plugin.reveng.destDir = 'reverse_engineered_domains'
 // AVAILABLE REVENG OPTIONS
 
 // https://grails-plugins.github.io/grails-db-reverse-engineer/grails3v4/index.html#core-properties
+grails.plugin.reveng.packageName
+grails.plugin.reveng.manyToManyBelongsTos
+
+// https://grails-plugins.github.io/grails-db-reverse-engineer/grails3v4/index.html#inclusion-exclusion-properties
 grails.plugin.reveng.includeTables
 grails.plugin.reveng.includeTableRegexes
 grails.plugin.reveng.includeTableAntPatterns
